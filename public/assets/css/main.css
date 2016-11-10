@@ -1,0 +1,86 @@
+/* Home CSS Starts Here */
+
+.masthead h1.ui.header {
+  margin-top: 1em;
+  font-size: 4em;
+  font-weight: normal;
+  text-align: center; 
+  color:#001856;}
+
+
+.masthead h2.ui.header {
+  margin-top: 1em;
+  font-size: 2em;
+  font-weight: normal;
+  text-align: center; 
+  color:#001856;
+}
+
+
+#involvebtn {
+  text-align: center;
+  margin: 5px auto; }
+
+#mainimage{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  min-height: 100%
+}
+
+
+
+/* Home CSS Ends Here */
+
+@media screen and (max-width: 700px) {
+  .main.menu {
+    display: none; }
+  .sidebar-icon {
+    display: block; } }
+
+@media screen and (min-width: 701px) {
+  .sidebar-icon {
+    display: none; } }
+
+* {
+  box-sizing: border-box; }
+
+html,
+body {
+  font-size: 16px; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'helvetica', arial;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 200; }
+
+/*Header*/
+header {
+  min-height: 100%;
+  margin-bottom: 2rem; }
+
+.sidebar-icon {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  cursor: pointer;
+  color: white; }
+
+.hidden {
+  display: none; }
+
+.masthead {
+  min-height: 350px;
+  padding: 1em 0em;
+  /*background: url("../assets/images/team2015.jpg");
+background-position: right;
+background-size: 100% auto;
+*/ }
+
+/*Footer*/
+footer {
+  margin-top: 2rem;
+  min-width: 100%; }
